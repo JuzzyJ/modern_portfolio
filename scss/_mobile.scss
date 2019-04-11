@@ -45,6 +45,17 @@
       height: 150px;
     }
   }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "goal1"
+      "goal2"
+      "goal3";
+
+    grid-template-columns: 1fr;
+  }
 }
 
 // Smartphones
